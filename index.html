@@ -32,6 +32,43 @@
                 <div class="card-footer">
                 <button id="generate" class="btn">Generate Password</button>
                 </div>
+
+                <!-- a form felt like the best way in order to pass values to the next stage of the javascript -->
+                <div class="criteria">
+                    <div class="popup" id="popup">
+                      <form class="criteriaForm">
+                        <h2>Password Requirements</h2>
+
+                        <label for="length">
+                          <strong>Length</strong>
+                        </label>
+                        <br>
+                        <input type="text" id="length" placeholder="number 8 to 128 characters" name="length" required>
+                        <br>
+                        <br>
+
+                        <label for="characters">
+                          <strong> Character Requirements</strong>
+                        </label>
+                        <br>
+
+                        <!-- lowercase -->
+                        <input type="checkbox" id="lower" name="lower" required>
+                        <label for="lower"> Lowercase</label>
+                        <br>
+
+                        <!-- uppercase -->
+                        <input type="checkbox" id="upper" name="upper" required>
+                        <label for="upper"> Uppercase</label>
+                        <br>
+
+                        <!-- special characters -->
+                        <input type="checkbox" id="special" name="special" required>
+                        <label for="upper"> Uppercase</label>
+                        <br>
+
+                        <button type="submit" class="btn" onclick="writePassword()">Submit</button>
+                      </form>
             </div>
         </div>
     <script src="assets/js/script.js"></script>

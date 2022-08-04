@@ -155,3 +155,37 @@ button[disabled]
         font-size: 0.8rem;
     }
 }
+
+/* added styling for form */
+
+.criteria 
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.popup 
+{
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #c0c7cf;
+    z-index: 9;
+}
+
+.criteriaForm
+{
+    max-width: 300px;
+    padding: 20px;
+    background-color: #e7e9eb;
+}
+
+.criteriaForm .btn 
+{
+    padding: 12px 20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
