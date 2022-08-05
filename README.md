@@ -38,13 +38,13 @@ THEN the password is either displayed in an alert or written to the page
 
 ```
 
-## Mock-Up
+### Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
 ![Website preview](assets/images/Mockup1.PNG)
 ![Website preview](assets/images/Mockup%202.PNG)
 
-## Live Link
+#### Live Link
 
-### Coming Soon!
+ (https://halliemestas.github.io/Password-Generator/ "Password Generator")
