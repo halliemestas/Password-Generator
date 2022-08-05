@@ -47,4 +47,4 @@ The following image shows the web application's appearance and functionality:
 
 #### Live Link
 
- https://halliemestas.github.io/Password-Generator/ "Password Generator
+ https://halliemestas.github.io/Password-Generator/ 
