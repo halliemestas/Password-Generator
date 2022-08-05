@@ -43,7 +43,7 @@
                           <strong>Length</strong>
                         </label>
                         <br>
-                        <input type="text" id="plength" placeholder="number 8 to 128 characters" name="plength" required>
+                        <input type="number" id="plength" placeholder="8-128" name="plength" min="8" max="128" required>
                         <br>
                         <br>
 
@@ -53,21 +53,26 @@
                         <br>
 
                         <!-- lowercase -->
-                        <input type="checkbox" id="lower" name="lower" required>
+                        <input type="checkbox" id="lower" name="lower">
                         <label for="lower"> Lowercase</label>
                         <br>
 
                         <!-- uppercase -->
-                        <input type="checkbox" id="upper" name="upper" required>
+                        <input type="checkbox" id="upper" name="upper">
                         <label for="upper"> Uppercase</label>
+                        <br>
+
+                        <!-- numeric -->
+                        <input type="checkbox" id="num" name="num">
+                        <label for="num"> Numbers</label>
                         <br>
 
                         <!-- special characters -->
-                        <input type="checkbox" id="special" name="special" required>
-                        <label for="upper"> Uppercase</label>
+                        <input type="checkbox" id="special" name="special">
+                        <label for="upper"> Special Characters</label>
                         <br>
 
-                        <button id="submit" class="btn">Submit</button>
+                        <button id="submit" class="btn"  onClick="writePassword()">Submit</button>
                       </form>
             </div>
         </div>

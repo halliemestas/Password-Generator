@@ -1,4 +1,3 @@
-// Assignment code starts here
 function openForm() 
 {
   document.getElementById("popup").style.display = "block";
@@ -11,8 +10,20 @@ function closeForm()
 
 function generatePassword()
 {
-  
+  //setting values
+  var passLength = document.getElementById('plength').value;
+  var l = document.getElementById('lower').checked; 
+  var n = document.getElementById('num').checked;
+  var u = document.getElementById('upper').checked;
+  var s = document.getElementById('special').checked;
 
+  console.log(passLength);
+  console.log(l);
+  console.log(u);
+  console.log(n);
+  console.log(s);
+
+  
 }
 
 
@@ -32,6 +43,6 @@ function writePassword()
 }
 
 // Add event listener to generate button to open form instead of writePassword
-submitBtn.addEventListener("click", writePassword);
+// submitBtn.addEventListener("click", writePassword);
 
 generateBtn.addEventListener("click", openForm);
