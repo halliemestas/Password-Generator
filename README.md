@@ -29,9 +29,11 @@ THEN my input should be validated and at least one character type should be sele
 
 WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
+<!-- Done -->
 
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+<!-- The functions are working, but can't seem to get anything to display in the password box given by the cloned code, used an alert to display instead. -->
 
 
 ```
