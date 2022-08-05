@@ -42,7 +42,8 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image shows the web application's appearance and functionality:
 
-### Coming Soon!
+![Website preview](assets/images/Mockup1.PNG)
+![Website preview](assets/images/Mockup%202.PNG)
 
 ## Live Link
 
