@@ -38,6 +38,14 @@ THEN the password is either displayed in an alert or written to the page
 
 ```
 
+## Updates following grading
+
+Function was not actually following minimum and maximum number set by form, updated function to bring to minimum and maximum number if outside of number value. 
+
+Grading indicated that a form was not an appropriate prompt to have criteria input, it was asking for individual alerts instead. I don't want to alter the code that I initially presented too far, so I've simply ensured the numeric values for the time being. 
+
+I would have used the confirm() method to ensure each individual criteria for the lower, upper, numeric, and special character values. prompt() methoud would be best to allow an entered value as well. Now that I understand the verbiage more for the requirements of the challenge, I understand why the form wasn't the way to get the selected criteria. 
+
 ### Mock-Up
 
 The following image shows the web application's appearance and functionality:

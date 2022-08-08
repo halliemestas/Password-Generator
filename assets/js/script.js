@@ -12,6 +12,10 @@ function generatePassword()
 {
   //setting values
   var passLength = document.getElementById('plength').value;
+  if (passLength < 8)
+    passLength = 8;
+  else if (passLength > 128)
+    passLength = 128;
   var l = document.getElementById('lower').checked; 
   var n = document.getElementById('num').checked;
   var u = document.getElementById('upper').checked;
